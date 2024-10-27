@@ -47,9 +47,10 @@ label {
 .box-heading h2, .box-heading p {
   text-align: center;
   color:white;
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: "Times New Roman", Times, serif;
   margin: 0;
   padding-top: 20px;               /* Adds space at the top for better alignment */
 }
+
 
 
