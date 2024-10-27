@@ -8,20 +8,6 @@ label {
   color: #333;
   margin-right: 10px;
 }
-
-input[type="text"] {
-  width: 200px;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-}
-
-input[type="text"]:focus {
-  border-color: #007bff;
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-  outline: none;
-}
   
 .label {
   margin-left: auto;
@@ -50,3 +36,20 @@ input[type="text"]:focus {
 .toolbar-button:hover {
   background-color: lightgrey;
 }
+.box-heading {
+  width: 100%;          /* Width of the box */
+  height: 250px;         /* Height of the box */
+  background-color: hsl(267, 84%, 81%); /* Background color */
+  padding: 20px;
+  margin: 0;          /* Space around the box */
+  border-radius: 0;    /* Rounded corners */
+}
+.box-heading h2, .box-heading p {
+  text-align: center;
+  color:white;
+  font-family: "Lucida Console", "Courier New", monospace;
+  margin: 0;
+  padding-top: 20px;               /* Adds space at the top for better alignment */
+}
+
+
