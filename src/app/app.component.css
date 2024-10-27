@@ -93,11 +93,16 @@ hgroup div {
   margin-top: 0; 
   background-color: #E6E6FA;
 }
-.image-container .side-by-side {
-  display: inline-block;
-  margin-right: 10px; /* space between images */
-  width: 100px;
-  height: auto;
+.image-container {
+  display: flex;
+  justify-content: center; /* centers the images */
+  gap: 10px; /* space between images */
+  background-color: #E6E6FA;
+}
+
+.image-container img {
+  width: 300px;
+  height: 300px;
 }
 
 
