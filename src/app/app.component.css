@@ -1,35 +1,28 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 .background{
     background-color: antiquewhite;
 }
+
 label {
-    font-size: 16px;
-    font-weight: bold;
-    color: #333;
-    margin-right: 10px;
-    style
-  }
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-right: 10px;
+}
+
 input[type="text"] {
-    width: 200px;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-  }
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
 input[type="text"]:focus {
-    border-color: #007bff;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-    outline: none;
-  }
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
   
-=======
 .label {
-    margin-left: auto;
+  margin-left: auto;
 }
->>>>>>> 1a1fc96 (git commit)
-=======
-.label {
-    margin-left: auto;
-}
->>>>>>> 168a3d03e4f252e808ac9c2fa983b03140e0f861
