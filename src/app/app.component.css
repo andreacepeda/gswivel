@@ -26,3 +26,27 @@ input[type="text"]:focus {
 .label {
   margin-left: auto;
 }
+
+.toolbar {
+  background-color: grey;
+  padding: 16px;
+  display: flex; 
+  align-items: center;
+}
+
+.toolbar-title {
+  margin-right: auto; /* Pushes the title to the left */
+}
+
+.toolbar-button {
+  margin-right: 8px;
+  padding: 8px 16px;
+  border: none;
+  background-color: white;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.toolbar-button:hover {
+  background-color: lightgrey;
+}
