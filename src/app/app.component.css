@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 .background{
     background-color: antiquewhite;
 }
@@ -27,3 +28,8 @@ input[type="text"]:focus {
     margin-left: auto;
 }
 >>>>>>> 1a1fc96 (git commit)
+=======
+.label {
+    margin-left: auto;
+}
+>>>>>>> 168a3d03e4f252e808ac9c2fa983b03140e0f861
