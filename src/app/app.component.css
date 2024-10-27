@@ -117,6 +117,12 @@ hgroup div {
   min-width: 100px;
 }
 
+.main-heading {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px; /* Space between heading and .box-buddy */
+}
 .box-buddy{
   padding: 10px 20px;           
   margin: 20px auto;            
@@ -129,15 +135,41 @@ hgroup div {
   justify-content: space-between;
   align-items: center; 
 }
-.box-buddy h2{
-  font-size: 18px;
-  color: #c596ff;
-  margin: 0;
+.heading-bubble{
+  display: flex;
+  width: 800px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: hsla(0, 0%, 88%, 0.21);
+  border-radius: 20%;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
 }
-.box-buddy h3{
-  font-size: 14px;
+.box-buddy h2{
+  font-size: 22px;
   color: #c596ff;
   margin: 0;
+}
+.bubbles{
+  display: flex;
+  justify-content: center;
+  color: #c596ff;
+  gap: 10px;
+  margin-top: 10px;
   cursor: pointer;
+}
+.bubble{
+  background-color: #e0e0e0;
+  color: #333;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 14 px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.bubble:hoover{
+  background-color: #ccc;
 }
