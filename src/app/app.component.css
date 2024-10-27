@@ -1,56 +1,143 @@
-.background{
-    background-color: antiquewhite;
+.background {
+  background-color: white;
 }
 
 label {
   font-size: 16px;
   font-weight: bold;
-  color: #333;
+  color: #c596ff; /* Set text color */
   margin-right: 10px;
 }
-  
+
 .label {
   margin-left: auto;
+  color: #c596ff; /* Set text color */
 }
 
 .toolbar {
-  background-color: grey;
   padding: 16px;
-  display: flex; 
+  display: flex;
   align-items: center;
 }
 
 .toolbar-title {
-  margin-right: auto; /* Pushes the title to the left */
+  margin-right: auto;
+  font-size: 20px;
+  font-weight: bold;
+  color: #c596ff; 
 }
 
 .toolbar-button {
   margin-right: 8px;
-  padding: 8px 16px;
+  padding: 12px 24px;
+  font-size: 16px;
   border: none;
-  background-color: white;
+  background-color: lightblue; 
   border-radius: 4px;
   transition: background-color 0.3s;
+  color: #c596ff 
 }
 
 .toolbar-button:hover {
   background-color: lightgrey;
 }
+
 .box-heading {
-  width: 100%;          /* Width of the box */
-  height: 250px;         /* Height of the box */
-  background-color: hsl(267, 84%, 81%); /* Background color */
+  width: 100%;
+  height: 250px;
   padding: 20px;
-  margin: 0;          /* Space around the box */
-  border-radius: 0;    /* Rounded corners */
+  margin: 0;
+  border-radius: 0;
+  text-align: left;
 }
-.box-heading h2, .box-heading p {
-  text-align: center;
-  color:white;
+
+.box-heading h2 {
+  font-size: 28px;
+  color: #c596ff; /* Set text color */
   font-family: "Times New Roman", Times, serif;
   margin: 0;
-  padding-top: 20px;               /* Adds space at the top for better alignment */
+  padding-top: 20px;
+  text-align: left;
 }
 
+.box-heading p {
+  font-size: 18px;
+  color: #c596ff; /* Set text color */
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding-top: 20px;
+  text-align: left;
+}
 
+hgroup h4 {
+  font-size: 22px;
+  text-align: left;
+  color: #c596ff; /* Set text color */
+}
 
+hgroup div {
+  font-size: 18px;
+  text-align: left;
+  color: #c596ff; /* Set text color */
+}
+
+#header-container {
+  text-align: left;
+  color: #c596ff; /* Set text color */
+}
+
+.finalRow {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.finalRow h4 {
+  font-size: 18px;
+  text-align: center;
+  color: #c596ff; 
+  margin: 0;
+  flex: 1;
+  min-width: 100px;
+}
+
+.finalRowDescription {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.finalRowDescription h4 {
+  font-size: 18px;
+  text-align: center;
+  color: #c596ff; 
+  margin: 0;
+  flex: 1;
+  min-width: 100px;
+}
+
+.box-buddy{
+  padding: 10px 20px;           
+  margin: 20px auto;            
+  width: 800px;            
+  text-align: left;
+  border-radius: 25px;
+  background-color: lightblue;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+.box-buddy h2{
+  font-size: 18px;
+  color: #c596ff;
+  margin: 0;
+
+}
+.box-buddy h3{
+  font-size: 14px;
+  color: #c596ff;
+  margin: 0;
+  cursor: pointer;
+}
