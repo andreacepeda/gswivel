@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .background{
     background-color: antiquewhite;
 }
@@ -21,3 +22,8 @@ input[type="text"]:focus {
     outline: none;
   }
   
+=======
+.label {
+    margin-left: auto;
+}
+>>>>>>> 1a1fc96 (git commit)
