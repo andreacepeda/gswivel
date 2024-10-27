@@ -1,101 +1,110 @@
 .background {
-  background-color: white;
+  background-color: #E6E6FA;
 }
 
 label {
   font-size: 16px;
   font-weight: bold;
-  color: #c596ff; /* Set text color */
+  color: black;
   margin-right: 10px;
 }
 
 .label {
   margin-left: auto;
-  color: #c596ff; /* Set text color */
+  color: black; 
 }
 
 .toolbar {
-  padding: 16px;
+  background-color: #E6E6FA;
   display: flex;
   align-items: center;
+  padding: 10px;
+  font-size: 20px;
+
 }
 
 .toolbar-title {
-  margin-right: auto;
   font-size: 20px;
   font-weight: bold;
-  color: #c596ff; 
+  font-size: 1.5em;
+  margin-right: auto;
+  color: black;
 }
 
 .toolbar-button {
-  margin-right: 8px;
-  padding: 12px 24px;
-  font-size: 16px;
+  background: none;
+  color: black;
   border: none;
-  background-color: lightblue; 
-  border-radius: 4px;
-  transition: background-color 0.3s;
-  color: #c596ff 
+  margin-left: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+  background-color: lightgray;
 }
 
 .toolbar-button:hover {
-  background-color: lightgrey;
+  background-color: gray;
 }
 
 .box-heading {
   width: 100%;
-  height: 250px;
-  padding: 20px;
   margin: 0;
   border-radius: 0;
   text-align: left;
+  background-color: #E6E6FA;
 }
 
-.box-heading h2 {
-  font-size: 28px;
-  color: #c596ff; /* Set text color */
+.box-heading h1 {
+  font-size: 180px;
+  text-align: center;
+  color: black; 
   font-family: "Times New Roman", Times, serif;
   margin: 0;
-  padding-top: 20px;
-  text-align: left;
 }
 
 .box-heading p {
-  font-size: 18px;
-  color: #c596ff; /* Set text color */
+  font-size: 25px;
+  color: black; 
   font-family: "Times New Roman", Times, serif;
   margin: 0;
-  padding-top: 20px;
-  text-align: left;
 }
 
 hgroup h4 {
   font-size: 22px;
   text-align: left;
-  color: #c596ff; /* Set text color */
+  color: black; 
 }
 
 hgroup div {
   font-size: 18px;
   text-align: left;
-  color: #c596ff; /* Set text color */
+  color: black;
 }
 
 #header-container {
   text-align: left;
-  color: #c596ff; /* Set text color */
+  color: black;
 }
 
 .finalRow {
   display: flex;
   justify-content: space-around;
-  margin-top: 20px;
+  margin-top: 0; 
+  background-color: #E6E6FA;
 }
+.image-container .side-by-side {
+  display: inline-block;
+  margin-right: 10px; /* space between images */
+  width: 100px;
+  height: auto;
+}
+
 
 .finalRow h4 {
   font-size: 18px;
   text-align: center;
-  color: #c596ff; 
+  color: black; 
   margin: 0;
   flex: 1;
   min-width: 100px;
@@ -106,12 +115,13 @@ hgroup div {
   justify-content: space-around;
   margin-top: 20px;
   gap: 20px;
+  background-color: #E6E6FA;
 }
 
 .finalRowDescription h4 {
   font-size: 18px;
   text-align: center;
-  color: #c596ff; 
+  color: black; 
   margin: 0;
   flex: 1;
   min-width: 100px;
@@ -120,56 +130,51 @@ hgroup div {
 .main-heading {
   text-align: center;
   font-size: 24px;
-  color: #333;
-  margin-bottom: 10px; /* Space between heading and .box-buddy */
+  color: black;
+  margin: 0px;
+  background-color: #E6E6FA;
 }
-.box-buddy{
-  padding: 10px 20px;           
-  margin: 20px auto;            
-  width: 800px;            
-  text-align: left;
-  border-radius: 25px;
-  background-color: lightblue;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-  display: flex;
-  justify-content: space-between;
-  align-items: center; 
-}
-.heading-bubble{
-  display: flex;
-  width: 800px;
-  height: 30px;
+
+.heading-bubble {
   justify-content: center;
   align-items: center;
-  background-color: hsla(0, 0%, 88%, 0.21);
-  border-radius: 20%;
-  padding: 10px 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  height: 45px;
+  width: 200px;
+  background-color: lightgrey;
+  color: black; 
+  margin: 0 auto;
+  font-size: 18px;
+  border-radius: 10px;
+}
 
-}
-.box-buddy h2{
-  font-size: 22px;
-  color: #c596ff;
-  margin: 0;
-}
-.bubbles{
+.liam-bubbles {
   display: flex;
   justify-content: center;
-  color: #c596ff;
-  gap: 10px;
-  margin-top: 10px;
+  color: black;
   cursor: pointer;
+  background-color: #E6E6FA;
 }
-.bubble{
-  background-color: #e0e0e0;
-  color: #333;
+
+.bubble {
+  background-color: lightgray;
+  color: black;
   padding: 8px 12px;
   border-radius: 20px;
-  font-size: 14 px;
+  font-size: 14px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: background-color 0.3s;
 }
-.bubble:hoover{
-  background-color: #ccc;
+.liam-bubbles:hover {
+  background-color: gray;
+}
+
+.finalRowDescription {
+  padding: 10px;
+  margin: 0; 
+}
+
+.box-buddy{
+  background-color: #E6E6FA;
 }
